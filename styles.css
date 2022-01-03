@@ -2,4 +2,30 @@
     background-color: antiquewhite;
     font-family: 'Trebuchet MS', sans-serif;
     text-align: center;
+
 }
+
+html, body {
+    min-height: 100%;
+    height: 100%;
+    padding:0;
+    margin:0;
+}
+.bg_img {
+    background:url("https://besthqwallpapers.com/Uploads/27-3-2020/126423/thumb2-stylish-kitchen-design-modern-kitchen-interior-design-dark-wood-kitchen-furniture-modern-kitchen-furniture-kitchen-project.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height:100%;
+}
+#center_div {
+    display:block;
+    vertical-align:middle;
+    text-align:center;
+    margin:0 auto;
+    width:50%;
+    width: 1000px;
+}
+
+
